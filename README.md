@@ -2,12 +2,17 @@
 
 **File:** `unified_waypoint_follow_depth_avoid_and_human_follow.py`
 
+Simulation Demonstration: https://drive.google.com/file/d/1Rff3KlTEVmTZJt59RrR4Pg0o91UqzAbb/view?usp=drive_link
 ## Overview
 
 ROS 2 Humble node for PX4 + MAVROS that combines three behaviours in one controller:
 
 * Auto takeoff to target altitude, then a square waypoint mission with yaw turns.
 * Depth-image based ob
+
+
+https://github.com/user-attachments/assets/adea5ab7-cd07-4e68-aef8-c493dd8dcf8d
+
 
 https://github.com/user-attachments/assets/5096f1b5-9f31-44da-a078-0453c6815c35
 
