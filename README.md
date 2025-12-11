@@ -7,7 +7,11 @@
 ROS 2 Humble node for PX4 + MAVROS that combines three behaviours in one controller:
 
 * Auto takeoff to target altitude, then a square waypoint mission with yaw turns.
-* Depth-image based obstacle avoidance using `/depth_camera`.
+* Depth-image based ob
+
+https://github.com/user-attachments/assets/5096f1b5-9f31-44da-a078-0453c6815c35
+
+stacle avoidance using `/depth_camera`.
 * Human detection via YOLO on `/camera`. If a person wearing red is detected the node switches to FOLLOW_HUMAN mode and tracks that person while preserving the same depth-based avoidance override.
 
 Control loop runs at 20 Hz. Topics and QoS match the original node expectations so it can be dropped into existing MAVROS setups with minimal changes.
